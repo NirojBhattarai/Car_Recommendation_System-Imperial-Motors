@@ -1,0 +1,78 @@
+.car-details-container {
+  margin: 0.2rem;
+    border: 1px solid #7c8a9736;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(rgba(158, 14, 14, 0.9), rgba(69, 69, 69, 0.9));
+    display: flex;
+  }
+  
+  .car-details-content {
+    flex: 1;
+    padding-right: 20px; /* Added padding to create space between content and image */
+  }
+  
+  .car-details-content h2,
+  .car-details-content p {
+    color: #ffd000;
+    font-size: 1.8rem; /* Increased font size for better visibility */
+    margin: 0;
+  }
+  
+  .car-details-content p {
+    font-size: 1.2rem; /* Increased font size for better visibility */
+    margin-top: 10px; /* Increased margin for better spacing */
+  }
+  
+  .car-details-content p:first-child {
+    margin-top: 20px; /* Increased margin for better spacing */
+  }
+  
+  .car-details-image img {
+    max-width: 100%; /* Adjusted to ensure image stays within container */
+    height: auto;
+    border-radius: 8px;
+    width: 400px; /* Increased width of image */
+    height: 300px; /* Increased height of image */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    border: none;
+    color: #fff; /* White color for button text */
+    cursor: pointer;
+    padding: 12px 20px; /* Increased padding for better appearance */
+    border-radius: 30px; /* Increased border radius for rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition effect */
+    margin-top: 20px; /* Move the button down */
+}
+
+.back-button:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+    color: #fff; /* Adjust text color to ensure readability */
+    transform: translateY(1px); /* Move the button slightly up on hover */
+}
+
+.back-button i {
+    margin-right: 8px; /* Adjusted space between icon and text */
+}
+
+  
+.recommender-cars {
+  background: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px; /* Add margin to create space from above content */
+}
+
+.recommended-cars-row {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.recommended-cars {
+  max-width: 800px; /* Limit the width of the recommended cars container */
+  width: 100%; /* Ensure it takes full width */
+}

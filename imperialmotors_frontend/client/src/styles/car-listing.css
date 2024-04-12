@@ -1,0 +1,37 @@
+.cars {
+  margin: 10px;
+  padding: 0px 30px;
+  padding-bottom: 10px;
+  background: #f7f7f7; /* Change background color */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.car-container{
+  background: #f7f7f7;
+}
+
+.filter__widget-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Align widgets evenly */
+  margin-bottom: 20px; /* Increase margin for better spacing */
+}
+
+.filter__widget-01 select,
+.filter__widget-02 select {
+  border: 2px solid #ccc; /* Update border color */
+  padding: 10px 20px; /* Increase padding for better appearance */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  background: #fff; /* Change background color */
+  color: #333; /* Update text color */
+  cursor: pointer;
+  font-size: 16px; /* Increase font size for better visibility */
+  width: 200px; /* Adjust width as needed */
+}
+
+.filter__widget-01 select:focus,
+.filter__widget-02 select:focus {
+  outline: none; /* Remove outline on focus */
+  border-color: #007bff; /* Change border color on focus */
+}
