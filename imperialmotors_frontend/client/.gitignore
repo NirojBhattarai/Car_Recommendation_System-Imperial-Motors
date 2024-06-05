@@ -7,7 +7,12 @@
 
 # testing
 /coverage
-/.gitignore
+
+# Ignore package.json file
+package.json
+
+# Ignore package-lock.json file
+package-lock.json
 
 # production
 /build
